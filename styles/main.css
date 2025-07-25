@@ -67,7 +67,7 @@ button:hover {
 
 .posts-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   margin-top: 20px;
 }
@@ -148,4 +148,16 @@ button:hover {
 
 .hidden {
   display: none;
+}
+
+@media (max-width: 800px) {
+  .posts-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 400px) {
+  .posts-grid {
+    grid-template-columns: 1fr;
+  }
 }
