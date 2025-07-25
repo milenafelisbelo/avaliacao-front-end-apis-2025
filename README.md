@@ -75,3 +75,16 @@ Serão avaliados os seguintes pontos:
 1. Crie um fork deste repositório.
 2. Implemente a solução.
 3. Faça commits frequentes e claros.
+
+
+## Login
+
+![alt text](image.png)
+
+## Posts
+
+![alt text](image-1.png)
+
+## Dados Post
+
+![alt text](image-2.png)
